@@ -1,0 +1,51 @@
+@import 'base/variables.scss';
+@import 'base/grid.scss';
+@import 'base/button.scss';
+
+body {
+    background: $bg;
+    color: $red;
+}
+
+body h1,
+body h2 {
+    font-family: $sans-serif;
+    color: $grey;
+}
+    body h2 {
+        font-weight: 100;
+    }
+
+
+body p {
+    color: $grey;
+}
+
+body a {
+    color: $red;
+    transition: all 320ms ease;
+    // [all] animazione su tutte le proprietà indicate nel selettore
+    // transition: all 0.5s ease;
+    // background: red;
+    // padding: 10px;
+    // forma abbreviata di:
+    // transition: background 0.2s ease,
+    //             padding 0.8s linear;
+}
+
+li[class|="riga"]{
+    line-height: 1.5em;
+    color: $red;
+}
+
+.paragrafo {
+    color: $grey;
+}
+
+.blu {
+    color: $blu;
+}
+
+.testo-grande {
+    font-size: $txt-grande;
+}
