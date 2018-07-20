@@ -28,7 +28,7 @@ var jsFILES     = [jsSRC]; // array file
 // init Browser-sync
 gulp.task('browser-sync', function() {
     browsersync.init({
-        proxy: "http://localhost:8080/gulp-test/gulp-from-scratch" // Cartella Principale rinominata, era 'browsersync'
+        proxy: "http://localhost:8080/gulp-test/my-gulp-from-scratch" // Cartella Principale rinominata, era 'browsersync'
     });
 });
 

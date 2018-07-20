@@ -26,7 +26,7 @@
             <h2>sottotitolo</h2>
         </hgroup>
         <article>
-            <h2>titolo dell'articolo</h2>
+            <h2>Titolo dell'articolo</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quas?</p>
             <p>Ratione quibusdam, esse quos dicta quis illum error quam quod.</p>
         </article>
